@@ -64,7 +64,7 @@ int main()
             cout << "I arrive at work, a new day begins and... ZOMBIES, I'm going to have to raise their salaries if I don't want to die" << endl;
         }
         else {
-            int randomDialogue = rand() % 101;
+            int randomDialogue = rand() % 50;
             switch (randomDialogue) {
             case 1:
                 cout << "HE JUST PUFFED MY PENCIL !" << endl;
@@ -80,22 +80,22 @@ int main()
             case 40:
                 cout << "I knew I shouldn't have joined Ubisoft..." << endl;
                 break;
-            case 50:
+            case 35:
                 cout << "Small card game with survivors in toilet" << endl;
                 break;
-            case 60:
+            case 25:
                 cout << "Today we have zombie octagons" << endl;
                 break;
-            case 70:
+            case 15:
                 cout << "I forgot to lock my PC, zombies or put bizzare pictures on it..." << endl;
                 break;
-            case 80:
+            case 5:
                 cout << "Maybe I should call the police?" << endl;
                 break;
-            case 90:
+            case 48:
                 cout << "I was locked up all night because they ate the guard" << endl;
                 break;
-            case 99:
+            case 22:
                 cout << "I need to play agario to feel good better" << endl;
                 break;
             default:
